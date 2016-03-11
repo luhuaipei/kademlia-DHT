@@ -8,7 +8,6 @@ import (
 	"strings"
 	"math"
 )
-
 var N=50 //number of node in the network   
 var CONCURRENCY = 5 //number of doping rpc
 var TimeStrap = time.Millisecond*100     //takes about 20+ second for testing a function

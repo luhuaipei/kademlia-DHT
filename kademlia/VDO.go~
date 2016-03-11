@@ -10,7 +10,6 @@ type VDOT struct {
 }
 
 // Initialize
-
 func (myVDO *VDOT) Init(node ID) {
 	myVDO.VDOLock = sync.Mutex{}
 	myVDO.VDOID = node

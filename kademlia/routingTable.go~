@@ -9,7 +9,6 @@ import (
 	"sync"
 )
 
-
 const BUCKETSIZE = 20
 
 type RoutingTable struct {

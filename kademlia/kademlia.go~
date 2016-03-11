@@ -73,7 +73,6 @@ type NotFoundError struct {
 	msg string
 }
 
-
 func (e *NotFoundError) Error() string {
 	return fmt.Sprintf("%x %s", e.id, e.msg)
 }

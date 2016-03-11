@@ -1,6 +1,5 @@
 package kademlia
 
-
 // Contains definitions for the 160-bit identifiers used throughout kademlia.
 
 import (
